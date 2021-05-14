@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                cmd /c "hostname"
+                echo 1 > d:\1.txt
             }
         }
     }
