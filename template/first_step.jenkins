@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                echo 1
+                java -version
             }
         }
     }
